@@ -1,0 +1,181 @@
+body{
+    font-family: "Archivo Narrow", sans-serif;
+    background-color: black;
+    color:white;
+    background: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    background: #0F0F0F;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-menu-back{
+    background-color: rgb(0, 0, 0);
+    height: 85px;
+}
+.header-nav{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 29px; 
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header-list{
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+}
+.header-link{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.header-icon-back{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.back-to-menu{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    color: #D9D9D9;
+}
+.header-icon_user{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.header-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1170px;
+}
+.user-name, .user-surname{
+    color: #c4c3c3
+}
+.review-block{
+    background-color: #0F0F0F;
+    padding-top: 180px;
+}
+.title-review{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46.88px;
+    text-align: center;    
+}
+.description-review{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.16px;
+    text-align: center;
+    margin-bottom: 145px;
+}
+.form{
+    text-align: left;
+}
+.content-review{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    width: 1134px;
+    height: 353px;
+    padding-top: 25px;
+    padding-left: 25px;
+    border: 9px solid #7D7676;
+    outline: none; 
+    color:#000000;
+    margin-bottom: 40px;
+}
+.content-review::placeholder{
+    position: relative;
+    border-bottom: 100px;
+}
+.button-review{
+    width:1170px;
+    height: 59px;
+    background: #D9D9D9;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px; 
+    cursor: pointer;
+    margin-bottom: 250px;
+}
+
+
+.contacts-info{
+    background-color: #0F0F0F;
+}
+.contacts-info-block{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-contacts-info_left{
+    width: 412px;
+}
+.box-contacts-info_right{
+    position: relative;
+    left: 25px;
+    width: 300px;
+}
+.title-contacts-info{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22.27px; 
+    color: #989595;
+}
+.content-contacts-info{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.27px;
+    color: #989595;
+}
+.footer-block{
+    background-color: black;
+    height: 112.64px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.info-footer{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color: #817E7E;
+}
+.info-footer-author{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color:#FFFBFB; 
+}

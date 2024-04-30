@@ -1,0 +1,241 @@
+body{
+    font-family: "Archivo Narrow", sans-serif;
+    background-color: black;
+    color:white;
+    background: #0F0F0F;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    background: #0F0F0F;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-menu-back{
+    background-color: rgb(0, 0, 0);
+    height: 85px;
+}
+.header-nav{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 29px; 
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header-list{
+    display: flex;
+    list-style-type: none;
+    gap: 35px;
+}
+.header-link{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.header-icon-back{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.back-to-menu{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    color: #D9D9D9;
+}
+.header-icon_exit{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+}
+.profile-user-info-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 105px;
+    margin-bottom: 85px;
+}
+.title_user-profile{
+    font-size: 23px;
+    line-height: 26.95px;
+    text-align: left;    
+    padding-left: 20px;
+}
+.line-info{
+    margin-bottom: 71px;
+}
+.data_user-profile{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.data-user{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 26.95px;  
+    color: #817E7E;
+}
+.data-user-input{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 26.95px;
+    text-align: left;   
+    color: white;
+    margin-left: 15px;
+}
+.user-exit-button{
+    width: 93px;
+    height: 39px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;  
+    margin-top: 100px;
+    cursor: pointer;
+}
+.user-bilets-block{
+    height: 500px;
+}
+.title_user-bilets{
+    padding-left: 20px;
+}
+.bilet-item{
+    background-image: url('img/Group\ 76 (1).png');
+    height: 195px;
+}
+.line-bilet{
+    margin-bottom: 60px;
+}
+.bilet-item{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.box-bilet-info-left{
+    margin-left: 34px;
+    width: 650px;
+}
+.box-bilet-info-right{
+    margin-right: 75px;
+}
+.name-concert{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.81px;
+    margin-top: 25px;
+}
+.name-city-concert{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    margin-top: 9px;
+}
+.box-data-place-user{
+    display: flex;
+    gap:45px;
+    margin-top: 57px;
+}
+.data-place{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-align: left;
+    color: black;
+}
+.data-place-number{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left; 
+    margin-left: 20px;   
+}
+.data-cocnert-number{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: center;  
+    margin-top: 5px;   
+}
+.data-cocnert-month_year{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: center;
+}
+.data-cocnert-time{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;   
+    margin-top: 35px;   
+}
+
+
+.contacts-info{
+    background-color: #0F0F0F;
+}
+.contacts-info-block{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.box-contacts-info_left{
+    width: 412px;
+}
+.box-contacts-info_right{
+    position: relative;
+    left: 25px;
+    width: 300px;
+}
+.title-contacts-info{
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22.27px; 
+    color: #989595;
+}
+.content-contacts-info{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.27px;
+    color: #989595;
+}
+.footer-block{
+    background-color: black;
+    height: 112.64px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.info-footer{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color: #817E7E;
+}
+.info-footer-author{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color:#FFFBFB; 
+}
